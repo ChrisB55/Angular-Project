@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,19 +14,16 @@
       margin-bottom: 0;
       border-radius: 0;
     }
-
     /* Add a gray background color and some padding to the footer */
     footer {
       background-color: #f2f2f2;
       padding: 25px;
     }
-
   .carousel-inner img {
       width: 100%; /* Set width to 100% */
       margin: auto;
       min-height:200px;
   }
-
   /* Hide the carousel text when the screen is less than 600 pixels wide */
   @media (max-width: 600px) {
     .carousel-caption {
@@ -49,7 +47,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="#">Abouts</a></li>
         <li><a href="#">Products</a></li>
         <li><a href="#">Contact Us</a></li>
       </ul>
@@ -65,12 +63,13 @@
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="https://placehold.it/1200x400?text=IMAGE" alt="Image">
+        <img src="img/code.jpeg" alt="Computer Code">
         <div class="carousel-caption">
           <h3>Tech Imagery</h3>
           <p></p>
@@ -78,12 +77,18 @@
       </div>
 
       <div class="item">
-        <img src="https://placehold.it/1200x400?text=Another Image Maybe" alt="Image">
+        <img src="img/consulting.jpeg" alt="Consulting keyscreen image">
         <div class="carousel-caption">
           <h3>More Tech Imagery</h3>
           <p></p>
         </div>
-      </div>
+    </div>
+    <div class="item">
+        <img src="img/desk.png" alt="Worker at laptop>
+        <div class="carousel-caption">
+          <h3>More Tech Imagery</h3>
+          <p></p>
+        </div>
     </div>
 
     <!-- Left and right controls -->
@@ -94,6 +99,10 @@
     <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Carousel 2</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Carousel 3</span>
     </a>
 </div>
 
@@ -120,7 +129,7 @@
 </div><br>
 
 <footer class="container-fluid text-center">
-  <p>@Green Company, Inc</p>
+  <p>@Techie Tech Company, Inc</p>
 </footer>
 
 </body>
